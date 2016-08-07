@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Data Test
 layout: default
 ---
 Hello, world!
