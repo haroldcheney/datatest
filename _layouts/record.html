@@ -1,0 +1,14 @@
+---
+layout: default
+---
+{{ content }}
+<table>
+  <tbody>
+  {% for field in page.record %}
+    <tr>
+      <td>{{ field[0] }}:</td>
+      <td>{{ field[1] }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>

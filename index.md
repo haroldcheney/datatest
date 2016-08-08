@@ -2,6 +2,14 @@
 title: Data Test
 layout: default
 ---
-Hello, world!
+# Things I Know
 
-I'm using a layout template and markdown!
+Testing different ways to represent collections of things in Jekyll.
+
+<ul>
+{% for thing in site.things %}
+  <li>
+    <a href="{{ thing.url }}">{{ thing.title }}</a>
+  </li>
+{% endfor %}
+</ul>

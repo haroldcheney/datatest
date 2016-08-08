@@ -1,0 +1,9 @@
+---
+layout: default
+---
+{{ content }}
+<ul>
+{% for item in site.data[page.data-list] %}
+  <li>{{ item }}</li>
+{% endfor %}
+</ul>
