@@ -1,3 +1,4 @@
+baseurl: /datatest
 collections:
   things:
     output: true
