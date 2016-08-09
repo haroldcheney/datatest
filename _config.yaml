@@ -1,4 +1,6 @@
 baseurl: /datatest
+empty_list:
+  - [No data]
 collections:
   things:
     output: true

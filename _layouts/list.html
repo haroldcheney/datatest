@@ -1,9 +1,16 @@
 ---
 layout: default
 ---
+{% if page.list %}
+  {% assign items = page.list %}
+{% elsif page.data_list %}
+  {% assign items = site.data[page.data_list] %}
+{% else %}
+  {% assign items = site.empty_list %}
+{% endif %}
 {{ content }}
 <ul>
-{% for item in page.list %}
+{% for item in items %}
   <li>{{ item }}</li>
 {% endfor %}
 </ul>

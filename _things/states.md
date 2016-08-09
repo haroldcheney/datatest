@@ -1,6 +1,6 @@
 ---
-layout: data-list
+layout: list
 title: States
-data-list: states
+data_list: states
 ---
 This is a list of states that are united.
